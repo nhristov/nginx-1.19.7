@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Tue, 16 Feb 2021 19:08:49 +0300
+Source: nginx
+Binary: nginx nginx-dbg
+Architecture: amd64
+Version: 1.19.7-1~bionic
+Distribution: bionic
+Urgency: low
+Maintainer: Sergey Budnevitch <sb@nginx.com>
+Changed-By: Konstantin Pavlov <thresh@nginx.com>
+Description:
+ nginx      - high performance web server
+ nginx-dbg  - nginx debug symbols
+Changes:
+ nginx (1.19.7-1~bionic) bionic; urgency=low
+ .
+   * 1.19.7-1
+Checksums-Sha1:
+ 2acadd14370d71350a57c19f182a3c73811c0ea0 7967232 nginx-dbg_1.19.7-1~bionic_amd64.deb
+ a0ece11a58720b4e86765254624996c33985a063 6621 nginx_1.19.7-1~bionic_amd64.buildinfo
+ 5b68363b12c1d455494d5855e1524b2aae7eb33a 1165676 nginx_1.19.7-1~bionic_amd64.deb
+Checksums-Sha256:
+ d970922a9f5f9d1e9d1d8c548446a3f9c433e191f495307cb9036acc88f8a895 7967232 nginx-dbg_1.19.7-1~bionic_amd64.deb
+ c4075772122d978d766bcfdd328b2b1a38d6f15ea30aefb631ca9d2d73a211f8 6621 nginx_1.19.7-1~bionic_amd64.buildinfo
+ 951d8018bb2cbe3e7812913469251cdf63f84aceeec5a041d74f2aa43fc2033b 1165676 nginx_1.19.7-1~bionic_amd64.deb
+Files:
+ a108f22ac22bf1a238ea195b773bbd6b 7967232 debug extra nginx-dbg_1.19.7-1~bionic_amd64.deb
+ c2821bf1fc7057009e816e8bda9326b1 6621 httpd optional nginx_1.19.7-1~bionic_amd64.buildinfo
+ df18052ba8ef48a226a52fc15c27e10f 1165676 httpd optional nginx_1.19.7-1~bionic_amd64.deb
