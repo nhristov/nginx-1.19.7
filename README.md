@@ -1,6 +1,6 @@
-# nginx-1.19.7
+# nginx-1.21.0
 
-A modified default nginx-1.19.7 for Ubuntu 18.04 with some useful modules included:
+A modified default nginx-1.21.0 for Ubuntu 18.04 with some useful modules included:
 
 -   https://github.com/openresty/headers-more-nginx-module
 -   https://github.com/google/ngx_brotli
@@ -10,5 +10,5 @@ A modified default nginx-1.19.7 for Ubuntu 18.04 with some useful modules includ
 To install run:
 
 ```bash
-dpkg -i nginx_1.19.7-1~bionic_amd64.deb
+dpkg -i nginx_1.21.0-1~bionic_amd64.deb
 ```
