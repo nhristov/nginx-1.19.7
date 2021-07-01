@@ -1,0 +1,12 @@
+[submodule "nginx-1.21.0/debian/modules/headers-more-nginx-module"]
+	path = nginx-1.21.0/debian/modules/headers-more-nginx-module
+	url = ssh://git@github.com/openresty/headers-more-nginx-module.git
+[submodule "nginx-1.21.0/debian/modules/ngx_brotli"]
+	path = nginx-1.21.0/debian/modules/ngx_brotli
+	url = ssh://git@github.com/google/ngx_brotli.git
+[submodule "nginx-1.21.0/debian/modules/ngx_devel_kit"]
+	path = nginx-1.21.0/debian/modules/ngx_devel_kit
+	url = ssh://git@github.com/vision5/ngx_devel_kit.git
+[submodule "nginx-1.21.0/debian/modules/set-misc-nginx-module"]
+	path = nginx-1.21.0/debian/modules/set-misc-nginx-module
+	url = ssh://git@github.com/openresty/set-misc-nginx-module.git
