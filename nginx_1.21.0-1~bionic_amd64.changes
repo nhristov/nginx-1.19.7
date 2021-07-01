@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Tue, 25 May 2021 16:01:22 +0300
+Source: nginx
+Binary: nginx nginx-dbg
+Architecture: amd64
+Version: 1.21.0-1~bionic
+Distribution: bionic
+Urgency: low
+Maintainer: NGINX Packaging <nginx-packaging@f5.com>
+Changed-By: Konstantin Pavlov <thresh@nginx.com>
+Description:
+ nginx      - high performance web server
+ nginx-dbg  - nginx debug symbols
+Changes:
+ nginx (1.21.0-1~bionic) bionic; urgency=low
+ .
+   * 1.21.0-1
+Checksums-Sha1:
+ 20786fd52ecb7bef1879cfb3d42268884a550bb2 8006812 nginx-dbg_1.21.0-1~bionic_amd64.deb
+ f6480474500a37c3a0b20521ebbd75ddb2d80fbb 6640 nginx_1.21.0-1~bionic_amd64.buildinfo
+ 1b4498930b7bf60c8806ee47e10c0261129e8552 1173492 nginx_1.21.0-1~bionic_amd64.deb
+Checksums-Sha256:
+ 8a58a0743b523e1244c80599d9dadb326779c41e7a89f24a4b51eb70e51adbef 8006812 nginx-dbg_1.21.0-1~bionic_amd64.deb
+ 79f91750707c6b08449b9ed28a372ec39272b8fb0f3289cb9ac1f7dea401752f 6640 nginx_1.21.0-1~bionic_amd64.buildinfo
+ fd6836d7a91ca42d8a3f41e7601db802ebf551aaa11b6886d48ce0ddce5461f0 1173492 nginx_1.21.0-1~bionic_amd64.deb
+Files:
+ 15acdfb64a58e652c5f294c6047b48b7 8006812 debug extra nginx-dbg_1.21.0-1~bionic_amd64.deb
+ 1117876df2a6470fcb009e58bfd66e0a 6640 httpd optional nginx_1.21.0-1~bionic_amd64.buildinfo
+ f0268110a6b5f0b3c3a3c3e4c57c2816 1173492 httpd optional nginx_1.21.0-1~bionic_amd64.deb
